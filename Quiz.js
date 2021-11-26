@@ -17,9 +17,9 @@ function check() {
     quiz.style.display = "none";
 
     if (c <= 3) {
-        result1.textContent = 'Your result is $(c) . Please work on your performance.'
+        result1.textContent = 'Your result is '+c+' . Please work on your performance.'
     } else {
-        result1.textContent = 'Your result is $(c) . Good score!! keep it up.'
+        result1.textContent = 'Your result is '+c+' . Good score!! keep it up.'
     }
 
 }
